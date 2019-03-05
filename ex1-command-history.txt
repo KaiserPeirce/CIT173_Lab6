@@ -1,0 +1,96 @@
+    1  mdir ~/CIT173_Lab6
+    2  ~/
+    3  cd ~/
+    4  mkdir ~/CIT173_Lab6
+    5  dir
+    6  useradd man
+    7  man user add
+    8  man useradd
+    9  useradd mhamill
+   10  sudo useradd mhamill
+   11  mhamill
+   12  ls users
+   13  sudo useradd hford
+   14  sudo useradd cfisher
+   15  sudo useradd gluca
+   16  sudo useradd glucas
+   17  sudo useradd gkurts
+   18  usermod man
+   19  man usermod
+   20  usermod mhamil
+   21  usermod mhamill
+   22  usermod -l mhamill
+   23  usermod mhamill -l Mark Hamill
+   24  su -c /usr/sbin/vipw
+   25  man psswd
+   26  psswd
+   27  man passwd
+   28  passwd mhamill
+   29  sudo passwd mhamill
+   30  sudo passwd hford
+   31  sudo passwd cfisher
+   32  sudo passwd glucas
+   33  sudo passwd gkurts
+   34  man useradd
+   35  sudo useradd -c mhamill
+   36  sudo useradd -c
+   37  useradd -c mhamill
+   38  useradd -c glucas
+   39  useradd -c 
+   40  sudo useradd -c 
+   41  sudo useradd -c Mark Hamill mhamill
+   42  sudo useradd -c Harrison Ford hford
+   43  users
+   44  sudo users
+   45  useradd
+   46  useradd -D
+   47  useradd -D mhamill
+   48  sudo useradd mhamill
+   49  users
+   50  passwd mhamill
+   51  sudo passwd mhamill
+   52  sudo useradd mhamill -c "Mark Hamill"
+   53  sudo useradd -m mhamill -c "Mark Hamill"
+   54  sudo userdel mhamill
+   55  sudo useradd -m mhamill -c "Mark Hamill"
+   56  sudo userdel hford
+   57  sudo useradd -m hford -c "Harrison Ford"
+   58  sudo userdel cfisher
+   59  sudo userdel glucas
+   60  sudo userdel gkurtz
+   61  sudo userdel mhamill
+   62  shutdown now
+   63  sudo userdel gkurtz
+   64  sudo groupadd actors
+   65  groups
+   66  sudo groupadd "actors"
+   67  sudo groupadd directors
+   68  sudo groupadd producers
+   69  sudo useradd -m mhamill -c "Mark Hamill"
+   70  sudo useradd -m hford -c "Harison Ford"
+   71  sudo useradd -m cfisher -c "Carrie Fisher"
+   72  sudo useradd -m glucasr -c "George Lucas"
+   73  sudo useradd -m gkurtz -c "Gary Kurtz
+
+   74  sudo passwd mhamill
+   75  sudo passwd hford
+   76  sudo passwd cfisher
+   77  sudo passwd glucas
+   78  sudo useradd -m glucas -c "George Lucas"
+   79  sudo passwd glucas
+   80  sudo passwd gkurtz
+   81  oz
+   82  sudo useradd -m gkurtz -c "Gary Kurtz"
+   83  sudo passwd gkurtz
+   84  useradd -G actors mhamill
+   85  usermod -a -G actors mhamill
+   86  sudo usermod -a -G actors mhamill
+   87  sudo usermod -a -G actors hford
+   88  sudo usermod -a -G actors cfisher
+   89  sudo usermod -a -G directors,producers glucas
+   90  sudo usermod -a -G producers gkurtz
+   91  sudo less /etc/group
+   92  cp /etc/passwd ~/CIT173_Lab6
+   93  ls ~/CIT173_Lab6
+   94  cp /etc/groups ~/CIT173_Lab6
+   95  history > ~/CIT173_Lab6/ex1-command-history.txt
